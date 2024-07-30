@@ -3,10 +3,10 @@ import 'package:dio/dio.dart';
 import 'package:http_mock_adapter/http_mock_adapter.dart';
 
 void main() async {
-  final users = Users();
-  Response response = await users.getPost();
+  // final users = Users();
+  // Response response = await users.getPost();
 
-  print(response.statusCode);
+  // print(response.statusCode);
 
   runApp(const MainApp());
 }
